@@ -1,0 +1,101 @@
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Roboto,Arial;
+    font-size: small;
+    padding: 20px;
+    margin: auto;
+    max-width: 80%;
+    height: 50%;
+}
+
+.firstSection{
+    height: 95vh;
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img{
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.text-big{
+    font-size: 30px;
+}
+
+.text-small{
+    font-size: small;
+}
+
+.btn{
+    padding: 6px 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 7px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.6;
+}
+
+.sectiona{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 80px;
+}
+
+.sectionTag{
+    padding: 12px 0;
+}
+
+.contact{
+    padding: 50px;
+    padding-top: 20px;
+    background: linear-gradient(to bottom, #434343 0%, black 100%);
+}
+
+.textc{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.form{
+    margin: auto;
+    max-width: 300px;
+}
+
+.form-input{
+    width: 100%;
+    font-size: 12px;
+    border-radius: 6px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    margin: 15px 0;
+    padding: 8px 8px;
+}
+
+.btna{
+    border-color: gray;
+    color: rgb(204, 204, 204);
+}
